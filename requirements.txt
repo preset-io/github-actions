@@ -1,0 +1,5 @@
+pygithub
+pandas
+sqlalchemy
+ipython
+jupyter

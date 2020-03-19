@@ -1,0 +1,767 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": ".resizable-container {\n    box-shadow: 0px 0px 15px #DDD;\n}\nbody {\n    //background-color: #333;\n}",
+                "dashboard_title": "Superset Community Metrics",
+                "description": null,
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"label_colors\": {\"Preset\": \"#2FC096\", \"Lyft\": \"#FF00BF\", \"Airbnb\": \"#FF5A60\", \"Other\": \"#AAAAAA\"}, \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{\\\"95\\\": {\\\"repo\\\": \\\"apache/incubator-superset\\\", \\\"__time_range\\\": \\\"2016 : \\\"}}\", \"remote_id\": 7, \"import_time\": 1584595106, \"filter_scopes\": {\"95\": {\"repo\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"__time_range\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}}}}",
+                "position_json": "{\"CHART-4QWUJa687A\":{\"children\":[],\"id\":\"CHART-4QWUJa687A\",\"meta\":{\"chartId\":85,\"height\":49,\"sliceName\":\"PRs by organization\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-MuzhEz9Sx\"],\"type\":\"CHART\"},\"CHART-C_L_DKh3Q4\":{\"children\":[],\"id\":\"CHART-C_L_DKh3Q4\",\"meta\":{\"chartId\":84,\"height\":42,\"sliceName\":\"Leaderboard\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-_c6h5sXlI\"],\"type\":\"CHART\"},\"CHART-LmuiqATcCs\":{\"children\":[],\"id\":\"CHART-LmuiqATcCs\",\"meta\":{\"chartId\":92,\"height\":35,\"sliceName\":\"Interactions\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-DB2-wItWq\"],\"type\":\"CHART\"},\"CHART-QMPic52CPF\":{\"children\":[],\"id\":\"CHART-QMPic52CPF\",\"meta\":{\"chartId\":95,\"height\":35,\"sliceName\":\"Filter\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-DB2-wItWq\"],\"type\":\"CHART\"},\"CHART-QRXVdzON-w\":{\"children\":[],\"id\":\"CHART-QRXVdzON-w\",\"meta\":{\"chartId\":98,\"height\":52,\"sliceName\":\"Top 100 PRs\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-xmOSKGpTr\"],\"type\":\"CHART\"},\"CHART-W9ukWzlqjY\":{\"children\":[],\"id\":\"CHART-W9ukWzlqjY\",\"meta\":{\"chartId\":89,\"height\":49,\"sliceName\":\"90D PRs Source\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-MuzhEz9Sx\"],\"type\":\"CHART\"},\"CHART-bB5kZJ9O_2\":{\"children\":[],\"id\":\"CHART-bB5kZJ9O_2\",\"meta\":{\"chartId\":90,\"height\":35,\"sliceName\":\"Stargazers\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-DB2-wItWq\"],\"type\":\"CHART\"},\"CHART-iO4rPkSR53\":{\"children\":[],\"id\":\"CHART-iO4rPkSR53\",\"meta\":{\"chartId\":87,\"height\":49,\"sliceName\":\"30D PRs Source \",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-MuzhEz9Sx\"],\"type\":\"CHART\"},\"CHART-oXQy1im7tB\":{\"children\":[],\"id\":\"CHART-oXQy1im7tB\",\"meta\":{\"chartId\":86,\"height\":50,\"sliceName\":\"PRs % by Org\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-MuzhEz9Sx\"],\"type\":\"CHART\"},\"CHART-pRKdsw6p70\":{\"children\":[],\"id\":\"CHART-pRKdsw6p70\",\"meta\":{\"chartId\":97,\"height\":52,\"sliceName\":\"Top 100 Issues\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-xmOSKGpTr\"],\"type\":\"CHART\"},\"CHART-t4fK-Evejn\":{\"children\":[],\"id\":\"CHART-t4fK-Evejn\",\"meta\":{\"chartId\":91,\"height\":50,\"sliceName\":\"Top 10 Contributors Stream\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-87IPIrKIU\"],\"type\":\"CHART\"},\"CHART-yyqfPVcxOJ\":{\"children\":[],\"id\":\"CHART-yyqfPVcxOJ\",\"meta\":{\"chartId\":88,\"height\":42,\"sliceName\":\"28D Leaderboard\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-_c6h5sXlI\"],\"type\":\"CHART\"},\"CHART-zIzuymMlxV\":{\"children\":[],\"id\":\"CHART-zIzuymMlxV\",\"meta\":{\"chartId\":96,\"height\":35,\"sliceName\":\"PRs\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-DB2-wItWq\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"GRID_ID\":{\"children\":[\"ROW-DB2-wItWq\",\"ROW-MuzhEz9Sx\",\"ROW-_c6h5sXlI\",\"ROW-87IPIrKIU\",\"ROW-xmOSKGpTr\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"Superset Community Metrics\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-87IPIrKIU\":{\"children\":[\"CHART-t4fK-Evejn\"],\"id\":\"ROW-87IPIrKIU\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-DB2-wItWq\":{\"children\":[\"CHART-QMPic52CPF\",\"CHART-bB5kZJ9O_2\",\"CHART-LmuiqATcCs\",\"CHART-zIzuymMlxV\"],\"id\":\"ROW-DB2-wItWq\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-MuzhEz9Sx\":{\"children\":[\"CHART-iO4rPkSR53\",\"CHART-W9ukWzlqjY\",\"CHART-4QWUJa687A\",\"CHART-oXQy1im7tB\"],\"id\":\"ROW-MuzhEz9Sx\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-_c6h5sXlI\":{\"children\":[\"CHART-C_L_DKh3Q4\",\"CHART-yyqfPVcxOJ\"],\"id\":\"ROW-_c6h5sXlI\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-xmOSKGpTr\":{\"children\":[\"CHART-pRKdsw6p70\",\"CHART-QRXVdzON-w\"],\"id\":\"ROW-xmOSKGpTr\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "github_actions",
+                            "datasource_type": "table",
+                            "id": 84,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"HAVING\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_13ewnssp0f1n_2g6kk7uz05c\", \"fromFormData\": true, \"operator\": null, \"sqlExpression\": \"COUNT(*) > 100\", \"subject\": null}], \"align_pn\": false, \"all_columns\": [], \"color_pn\": true, \"datasource\": \"15__table\", \"granularity_sqla\": \"dttm\", \"groupby\": [\"user_link\"], \"include_search\": false, \"include_time\": false, \"metrics\": [\"pull_requests\", \"comments\", \"reactions\", \"reviews\"], \"order_by_cols\": [], \"order_desc\": true, \"page_length\": 0, \"percent_metrics\": [], \"row_limit\": 10000, \"slice_id\": 84, \"table_filter\": false, \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"unknown\", \"inclusive\"], \"timeseries_limit_metric\": null, \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 84, \"datasource_name\": \"github_actions\", \"schema\": null, \"database_name\": \"docker postgres\"}",
+                            "slice_name": "Leaderboard",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.github_actions",
+                            "datasource_type": "table",
+                            "id": 85,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"bnbColors\", \"comparison_type\": \"values\", \"contribution\": false, \"datasource\": \"15__table\", \"granularity_sqla\": \"dttm\", \"groupby\": [\"org\"], \"label_colors\": {\"Airbnb\": \"#FF5A60\", \"Lyft\": \"#FF00BF\", \"Other\": \"#AAAAAA\", \"Preset\": \"#2FC096\", \"WAU\": \"#ff5a5f\", \"actions\": \"#7b0051\"}, \"line_interpolation\": \"linear\", \"metrics\": [\"pull_requests\"], \"order_desc\": true, \"resample_method\": null, \"resample_rule\": null, \"rich_tooltip\": true, \"rolling_periods\": 4, \"rolling_type\": \"mean\", \"row_limit\": 10000, \"show_brush\": \"auto\", \"show_controls\": false, \"show_legend\": true, \"slice_id\": 87, \"stacked_style\": \"stack\", \"time_grain_sqla\": \"P1W\", \"time_range\": \"2015-07-01 : \", \"timeseries_limit_metric\": null, \"url_params\": {}, \"viz_type\": \"area\", \"x_axis_format\": \"smart_date\", \"x_axis_label\": \"\", \"x_axis_showminmax\": false, \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_log_scale\": false, \"remote_id\": 85, \"datasource_name\": \"github_actions\", \"schema\": null, \"database_name\": \"docker postgres\", \"import_time\": 1584595106}",
+                            "slice_name": "PRs by organization",
+                            "viz_type": "area"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.github_actions",
+                            "datasource_type": "table",
+                            "id": 86,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"bnbColors\", \"comparison_type\": \"values\", \"contribution\": false, \"datasource\": \"15__table\", \"granularity_sqla\": \"dttm\", \"groupby\": [\"org\"], \"label_colors\": {\"Airbnb\": \"#FF5A60\", \"Lyft\": \"#FF00BF\", \"Other\": \"#AAAAAA\", \"Preset\": \"#2FC096\", \"WAU\": \"#7b0051\", \"actions\": \"#ff5a5f\"}, \"line_interpolation\": \"linear\", \"metrics\": [\"pull_requests\"], \"order_desc\": true, \"resample_method\": null, \"resample_rule\": null, \"rich_tooltip\": true, \"rolling_periods\": 4, \"rolling_type\": \"mean\", \"row_limit\": 10000, \"show_brush\": \"auto\", \"show_controls\": false, \"show_legend\": true, \"slice_id\": 88, \"stacked_style\": \"expand\", \"time_grain_sqla\": \"P1W\", \"time_range\": \"2015-07-01 : \", \"timeseries_limit_metric\": null, \"url_params\": {}, \"viz_type\": \"area\", \"x_axis_format\": \"smart_date\", \"x_axis_label\": \"\", \"x_axis_showminmax\": false, \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_log_scale\": false, \"remote_id\": 86, \"datasource_name\": \"github_actions\", \"schema\": null, \"database_name\": \"docker postgres\", \"import_time\": 1584595106}",
+                            "slice_name": "PRs % by Org",
+                            "viz_type": "area"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.github_actions",
+                            "datasource_type": "table",
+                            "id": 87,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"bnbColors\", \"datasource\": \"15__table\", \"donut\": false, \"granularity_sqla\": \"dttm\", \"groupby\": [\"org\"], \"label_colors\": {\"Airbnb\": \"#FF5A60\", \"Lyft\": \"#FF00BF\", \"Other\": \"#7b0051\", \"Preset\": \"#2FC096\", \"WAU\": \"#ff5a5f\"}, \"labels_outside\": true, \"metric\": \"pull_requests\", \"number_format\": \"SMART_NUMBER\", \"pie_label_type\": \"key\", \"row_limit\": 10000, \"show_labels\": true, \"show_legend\": true, \"time_range\": \"Last month\", \"url_params\": {}, \"viz_type\": \"pie\", \"remote_id\": 87, \"datasource_name\": \"github_actions\", \"schema\": null, \"database_name\": \"docker postgres\", \"import_time\": 1584595106}",
+                            "slice_name": "30D PRs Source ",
+                            "viz_type": "pie"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "github_actions",
+                            "datasource_type": "table",
+                            "id": 88,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"HAVING\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_13ewnssp0f1n_2g6kk7uz05c\", \"fromFormData\": true, \"operator\": null, \"sqlExpression\": \"COUNT(*) > 5\", \"subject\": null}], \"align_pn\": false, \"all_columns\": [], \"color_pn\": true, \"datasource\": \"15__table\", \"granularity_sqla\": \"dttm\", \"groupby\": [\"user_link\"], \"include_search\": false, \"include_time\": false, \"metrics\": [\"pull_requests\", \"comments\", \"reactions\", \"reviews\"], \"order_by_cols\": [], \"order_desc\": true, \"page_length\": 0, \"percent_metrics\": [], \"row_limit\": 10000, \"slice_id\": 88, \"table_filter\": false, \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last 28 days\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": null, \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 88, \"datasource_name\": \"github_actions\", \"schema\": null, \"database_name\": \"docker postgres\"}",
+                            "slice_name": "28D Leaderboard",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.github_actions",
+                            "datasource_type": "table",
+                            "id": 89,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"bnbColors\", \"datasource\": \"15__table\", \"donut\": false, \"granularity_sqla\": \"dttm\", \"groupby\": [\"org\"], \"label_colors\": {\"Airbnb\": \"#FF5A60\", \"Lyft\": \"#FF00BF\", \"Other\": \"#AAAAAA\", \"Preset\": \"#2FC096\", \"WAU\": \"#ff5a5f\"}, \"labels_outside\": true, \"metric\": \"pull_requests\", \"number_format\": \"SMART_NUMBER\", \"pie_label_type\": \"key\", \"row_limit\": 10000, \"show_labels\": true, \"show_legend\": true, \"time_range\": \"Last 3 months\", \"url_params\": {}, \"viz_type\": \"pie\", \"remote_id\": 89, \"datasource_name\": \"github_actions\", \"schema\": null, \"database_name\": \"docker postgres\", \"import_time\": 1584595106}",
+                            "slice_name": "90D PRs Source",
+                            "viz_type": "pie"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.github_actions",
+                            "datasource_type": "table",
+                            "id": 90,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"star\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_ohr1eaxed2g_7p6t6t69109\", \"fromFormData\": true, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"action\"}], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"compare_lag\": 365, \"compare_suffix\": \"YoY\", \"datasource\": \"13__table\", \"granularity_sqla\": \"dttm\", \"header_font_size\": 0.5, \"metric\": \"count\", \"min_periods\": 0, \"rolling_periods\": 1000000, \"rolling_type\": \"sum\", \"show_trend_line\": true, \"slice_id\": 91, \"start_y_axis_at_zero\": true, \"subheader_font_size\": 0.125, \"time_grain_sqla\": \"P1D\", \"time_range\": \"2016 : \", \"time_range_endpoints\": [\"unknown\", \"inclusive\"], \"url_params\": {}, \"viz_type\": \"big_number\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 90, \"datasource_name\": \"github_actions\", \"schema\": null, \"database_name\": \"docker postgres\", \"import_time\": 1584595106}",
+                            "slice_name": "Stargazers",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.github_actions",
+                            "datasource_type": "table",
+                            "id": 91,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"bnbColors\", \"comparison_type\": \"values\", \"contribution\": false, \"datasource\": \"15__table\", \"granularity_sqla\": \"dttm\", \"groupby\": [\"actor\"], \"label_colors\": {\"Airbnb\": \"#FF5A60\", \"Lyft\": \"#FF00BF\", \"Other\": \"#AAAAAA\", \"Preset\": \"#2FC096\", \"WAU\": \"#7b0051\", \"actions\": \"#ff5a5f\"}, \"limit\": 10, \"line_interpolation\": \"linear\", \"metrics\": [\"pull_requests\"], \"order_desc\": true, \"resample_method\": null, \"resample_rule\": null, \"rich_tooltip\": true, \"rolling_periods\": 4, \"rolling_type\": \"mean\", \"row_limit\": 10000, \"show_brush\": \"auto\", \"show_controls\": false, \"show_legend\": true, \"stacked_style\": \"stream\", \"time_grain_sqla\": \"P1W\", \"time_range\": \"2015-07-01 : \", \"timeseries_limit_metric\": null, \"url_params\": {}, \"viz_type\": \"area\", \"x_axis_format\": \"smart_date\", \"x_axis_label\": \"\", \"x_axis_showminmax\": false, \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_log_scale\": false, \"remote_id\": 91, \"datasource_name\": \"github_actions\", \"schema\": null, \"database_name\": \"docker postgres\", \"import_time\": 1584595106}",
+                            "slice_name": "Top 10 Contributors Stream",
+                            "viz_type": "area"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.github_actions",
+                            "datasource_type": "table",
+                            "id": 92,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"star\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_c6dje98zq7d_9omiyd7ejvj\", \"fromFormData\": true, \"operator\": \"!=\", \"sqlExpression\": null, \"subject\": \"action\"}], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"compare_lag\": 365, \"compare_suffix\": \"YoY\", \"datasource\": \"13__table\", \"granularity_sqla\": \"dttm\", \"header_font_size\": 0.5, \"metric\": \"count\", \"min_periods\": 0, \"rolling_periods\": 1000000, \"rolling_type\": \"sum\", \"show_trend_line\": true, \"start_y_axis_at_zero\": true, \"subheader_font_size\": 0.125, \"time_grain_sqla\": \"P1D\", \"time_range\": \"2016 : \", \"time_range_endpoints\": [\"unknown\", \"inclusive\"], \"url_params\": {}, \"viz_type\": \"big_number\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 92, \"datasource_name\": \"github_actions\", \"schema\": null, \"database_name\": \"docker postgres\", \"import_time\": 1584595106}",
+                            "slice_name": "Interactions",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "github_actions",
+                            "datasource_type": "table",
+                            "id": 95,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"star\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_c6dje98zq7d_9omiyd7ejvj\", \"fromFormData\": true, \"operator\": \"!=\", \"sqlExpression\": null, \"subject\": \"action\"}], \"datasource\": \"15__table\", \"date_filter\": true, \"filter_configs\": [{\"asc\": true, \"clearable\": true, \"column\": \"repo\", \"defaultValue\": \"apache/incubator-superset\", \"key\": \"wA2v-RSl5\", \"label\": \"Repository\", \"multiple\": false}], \"granularity_sqla\": \"dttm\", \"instant_filtering\": true, \"show_druid_time_granularity\": false, \"show_druid_time_origin\": false, \"show_sqla_time_column\": false, \"show_sqla_time_granularity\": false, \"slice_id\": 95, \"time_range\": \"2016 : \", \"time_range_endpoints\": [\"unknown\", \"inclusive\"], \"url_params\": {}, \"viz_type\": \"filter_box\", \"remote_id\": 95, \"datasource_name\": \"github_actions\", \"schema\": null, \"database_name\": \"docker postgres\"}",
+                            "slice_name": "Filter",
+                            "viz_type": "filter_box"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "github_actions",
+                            "datasource_type": "table",
+                            "id": 96,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"pr_created\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_ohr1eaxed2g_7p6t6t69109\", \"fromFormData\": true, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"action\"}, {\"clause\": \"WHERE\", \"comparator\": [\"apache/incubator-superset\"], \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"056cdf54-c415-4ed4-bc44-300b9c5f2fe7\", \"fromFormData\": true, \"operator\": \"in\", \"sqlExpression\": null, \"subject\": \"repo\"}], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"compare_lag\": 365, \"compare_suffix\": \"YoY\", \"datasource\": \"15__table\", \"granularity_sqla\": \"dttm\", \"header_font_size\": 0.5, \"metric\": \"count\", \"min_periods\": 0, \"rolling_periods\": 1000000, \"rolling_type\": \"cumsum\", \"show_trend_line\": true, \"start_y_axis_at_zero\": true, \"subheader_font_size\": 0.125, \"time_grain_sqla\": \"P1D\", \"time_range\": \"2016 : \", \"time_range_endpoints\": [\"unknown\", \"inclusive\"], \"url_params\": {\"preselect_filters\": \"{\\\"95\\\": {\\\"repo\\\": [\\\"apache/incubator-superset\\\"], \\\"__time_range\\\": \\\"2016 : \\\"}}\"}, \"viz_type\": \"big_number\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 96, \"datasource_name\": \"github_actions\", \"schema\": null, \"database_name\": \"docker postgres\"}",
+                            "slice_name": "PRs",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "github_actions",
+                            "datasource_type": "table",
+                            "id": 97,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6kva64ph1ux_kliljcb27pq\", \"fromFormData\": true, \"operator\": \"IS NOT NULL\", \"sqlExpression\": null, \"subject\": \"title\"}, {\"clause\": \"WHERE\", \"comparator\": \"issue\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_u6q3d3rakd_aa65xo0lzuq\", \"fromFormData\": true, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"parent_type\"}], \"align_pn\": false, \"all_columns\": [], \"color_pn\": true, \"datasource\": \"15__table\", \"granularity_sqla\": \"dttm\", \"groupby\": [\"issue_link\"], \"include_search\": false, \"include_time\": false, \"metrics\": [\"count\", \"comments\", \"reactions\"], \"order_by_cols\": [], \"order_desc\": true, \"page_length\": 0, \"percent_metrics\": [], \"row_limit\": 100, \"table_filter\": false, \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"unknown\", \"inclusive\"], \"timeseries_limit_metric\": null, \"url_params\": {\"preselect_filters\": \"{\\\"95\\\": {\\\"repo\\\": [\\\"apache/incubator-superset\\\"], \\\"__time_range\\\": \\\"2016 : \\\"}}\"}, \"viz_type\": \"table\", \"remote_id\": 97, \"datasource_name\": \"github_actions\", \"schema\": null, \"database_name\": \"docker postgres\"}",
+                            "slice_name": "Top 100 Issues",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "github_actions",
+                            "datasource_type": "table",
+                            "id": 98,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6kva64ph1ux_kliljcb27pq\", \"fromFormData\": true, \"operator\": \"IS NOT NULL\", \"sqlExpression\": null, \"subject\": \"title\"}, {\"clause\": \"WHERE\", \"comparator\": \"pr\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_u6q3d3rakd_aa65xo0lzuq\", \"fromFormData\": true, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"parent_type\"}, {\"clause\": \"WHERE\", \"comparator\": [\"apache/incubator-superset\"], \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"02f7a7d7-546e-4480-b51c-7d26bf529295\", \"fromFormData\": true, \"operator\": \"in\", \"sqlExpression\": null, \"subject\": \"repo\"}], \"align_pn\": false, \"all_columns\": [], \"color_pn\": true, \"datasource\": \"15__table\", \"granularity_sqla\": \"dttm\", \"groupby\": [\"issue_link\"], \"include_search\": false, \"include_time\": false, \"metrics\": [\"count\", \"comments\", \"reactions\"], \"order_by_cols\": [], \"order_desc\": true, \"page_length\": 0, \"percent_metrics\": [], \"row_limit\": 100, \"table_filter\": false, \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"2016 : \", \"time_range_endpoints\": [\"unknown\", \"inclusive\"], \"timeseries_limit_metric\": null, \"url_params\": {\"preselect_filters\": \"{\\\"95\\\": {\\\"repo\\\": [\\\"apache/incubator-superset\\\"], \\\"__time_range\\\": \\\"2016 : \\\"}}\"}, \"viz_type\": \"table\", \"remote_id\": 98, \"datasource_name\": \"github_actions\", \"schema\": null, \"database_name\": \"docker postgres\"}",
+                            "slice_name": "Top 100 PRs",
+                            "viz_type": "table"
+                        }
+                    }
+                ],
+                "slug": "community"
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-03-18T22:30:55"
+                            },
+                            "column_name": "index",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-03-18T22:18:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 458,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 15,
+                            "type": "BIGINT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-03-18T22:30:55"
+                            },
+                            "column_name": "action",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-03-18T22:18:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 459,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 15,
+                            "type": "VARCHAR(50)",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-03-18T22:30:55"
+                            },
+                            "column_name": "dttm",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-03-18T22:18:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 460,
+                            "is_active": null,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 15,
+                            "type": "DATETIME",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-03-18T22:30:55"
+                            },
+                            "column_name": "actor",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-03-18T22:18:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 461,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 15,
+                            "type": "VARCHAR(250)",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-03-18T22:30:55"
+                            },
+                            "column_name": "labels",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-03-18T22:18:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 462,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 15,
+                            "type": "TEXT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-03-18T22:30:55"
+                            },
+                            "column_name": "id",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-03-18T22:18:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 463,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 15,
+                            "type": "VARCHAR(50)",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-03-18T22:30:55"
+                            },
+                            "column_name": "type",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-03-18T22:18:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 464,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 15,
+                            "type": "VARCHAR(50)",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-03-18T22:30:55"
+                            },
+                            "column_name": "duration",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-03-18T22:18:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 465,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 15,
+                            "type": "INTEGER",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-03-18T22:30:55"
+                            },
+                            "column_name": "org",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-03-18T22:18:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 466,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 15,
+                            "type": "VARCHAR(500)",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-03-18T22:30:55"
+                            },
+                            "column_name": "object_type",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-03-18T22:18:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 467,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 15,
+                            "type": "TEXT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-03-18T22:30:55"
+                            },
+                            "column_name": "parent_type",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-03-18T22:18:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 468,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 15,
+                            "type": "VARCHAR(500)",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-03-18T22:30:55"
+                            },
+                            "column_name": "parent_id",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-03-18T22:18:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 469,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 15,
+                            "type": "VARCHAR(500)",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-03-18T22:30:55"
+                            },
+                            "column_name": "user_link",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-03-18T22:18:27"
+                            },
+                            "description": "User Link",
+                            "expression": "CONCAT('<a href=\"https://github.com/', actor, '\">', actor, '</a>')",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 470,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 15,
+                            "type": "STRING",
+                            "verbose_name": "User"
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-03-18T22:30:55"
+                            },
+                            "column_name": "title",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-03-18T22:19:12"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 471,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 15,
+                            "type": "TEXT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-03-18T22:30:55"
+                            },
+                            "column_name": "closed_at",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-03-18T22:19:12"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 472,
+                            "is_active": null,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 15,
+                            "type": "DATETIME",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-03-18T22:30:55"
+                            },
+                            "column_name": "closed_by",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-03-18T22:19:12"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 473,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 15,
+                            "type": "TEXT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-03-18T22:30:55"
+                            },
+                            "column_name": "is_bot",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-03-18T22:19:12"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 474,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 15,
+                            "type": "TINYINT(1)",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-03-18T22:30:55"
+                            },
+                            "column_name": "version",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-03-18T22:19:12"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 475,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 15,
+                            "type": "DOUBLE",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-03-18T22:30:55"
+                            },
+                            "column_name": "repo",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-03-18T22:19:12"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 476,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 15,
+                            "type": "VARCHAR(500)",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-03-18T22:53:41"
+                            },
+                            "column_name": "issue_link",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-03-18T22:53:41"
+                            },
+                            "description": null,
+                            "expression": "CONCAT('<a href=\"https://github.com/', repo, '/', parent_id, '\">', title, '</a>')",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 478,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 15,
+                            "type": "STRING",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": true,
+                "main_dttm_col": "dttm",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-03-18T22:18:27"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-03-18T22:18:27"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "id": 23,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 15,
+                            "verbose_name": "actions",
+                            "warning_text": null
+                        }
+                    },
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-03-18T22:18:27"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-03-18T22:18:27"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "SUM(CASE WHEN action='pr_created' THEN 1 ELSE 0 END)",
+                            "id": 24,
+                            "metric_name": "pull_requests",
+                            "metric_type": null,
+                            "table_id": 15,
+                            "verbose_name": "PRs",
+                            "warning_text": null
+                        }
+                    },
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-03-18T22:18:27"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-03-18T22:18:27"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "SUM(CASE WHEN action LIKE '%comment%' THEN 1 ELSE 0 END)",
+                            "id": 25,
+                            "metric_name": "comments",
+                            "metric_type": null,
+                            "table_id": 15,
+                            "verbose_name": "comments",
+                            "warning_text": null
+                        }
+                    },
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-03-18T22:18:27"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-03-18T22:18:27"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "SUM(CASE WHEN action LIKE '%react%' THEN 1 ELSE 0 END)",
+                            "id": 26,
+                            "metric_name": "reactions",
+                            "metric_type": null,
+                            "table_id": 15,
+                            "verbose_name": "reactions",
+                            "warning_text": null
+                        }
+                    },
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-03-18T22:18:27"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-03-18T22:18:27"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "SUM(CASE WHEN action LIKE 'pr_review' THEN 1 ELSE 0 END)",
+                            "id": 27,
+                            "metric_name": "reviews",
+                            "metric_type": null,
+                            "table_id": 15,
+                            "verbose_name": "reviews",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 15, \"database_name\": \"docker postgres\", \"import_time\": 1584595106}",
+                "schema": null,
+                "sql": null,
+                "table_name": "github_actions",
+                "template_params": null
+            }
+        }
+    ]
+}
