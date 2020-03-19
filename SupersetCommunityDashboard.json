@@ -621,7 +621,7 @@
                         "__TableColumn__": {
                             "changed_by_fk": 1,
                             "changed_on": {
-                                "__datetime__": "2020-03-18T22:53:41"
+                                "__datetime__": "2020-03-18T23:03:50"
                             },
                             "column_name": "issue_link",
                             "created_by_fk": 1,
@@ -629,11 +629,11 @@
                                 "__datetime__": "2020-03-18T22:53:41"
                             },
                             "description": null,
-                            "expression": "CONCAT('<a href=\"https://github.com/', repo, '/', parent_id, '\">', title, '</a>')",
+                            "expression": "CONCAT('<a href=\"https://github.com/', repo, '/issues/', parent_id, '\">', title, '</a>')",
                             "filterable": true,
                             "groupby": true,
                             "id": 478,
-                            "is_active": true,
+                            "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
                             "table_id": 15,
