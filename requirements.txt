@@ -1,4 +1,6 @@
 pygithub
+pre-commit
+nbstripout
 pandas
 sqlalchemy
 ipython
