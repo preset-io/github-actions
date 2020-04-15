@@ -7,6 +7,9 @@ It provides:
 - a Superset dashboard as a JSON file that can be loaded into your
   any Superset instance
 
+## Create a Github Token
+
+Create a Github token @ https://github.com/settings/tokens
 
 ## Install
 ```bash
@@ -21,5 +24,5 @@ source env/bin/activate
 # install required deps
 pip install -r requierments.txt
 # fire up the notebook server
-jupyter notebook
+GITHUB_TOKEN=YOUR_TOKEN jupyter notebook
 ```
