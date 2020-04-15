@@ -11,15 +11,15 @@ It provides:
 ## Install
 ```bash
 # clone the repo
-git clone git@github.com:preset-io/dataeng.git
-cd python-github
+git clone git@github.com:preset-io/github-actions.git
+cd github-actions
 
 # setup a virtual env
-virtualenv env -p -python3
+virtualenv env -p python3
 source env/bin/activate
 
 # install required deps
-pip install -r requierments.txt
+pip install -r requirements.txt
 # fire up the notebook server
 jupyter notebook
 ```
