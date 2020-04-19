@@ -11,7 +11,7 @@ It provides:
 ## Install
 ```bash
 # clone the repo
-git clone git@github.com:preset-io/dataeng.git
+git clone git@github.com:preset-io/github-actions.git
 cd github-actions
 
 # setup a virtual env
